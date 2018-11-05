@@ -124,7 +124,5 @@ STATIC_URL = '/static/'
 
 # django_simple_coupons settings
 # ------------------------------
-# from django.contrib.auth.models import User
-#
-# DSC_COUPON_CODE_LENGTH = 12
-# DSC_USER_MODEL = User
+DSC_COUPON_CODE_LENGTH = 12
+DSC_USER_MODEL = 'User'

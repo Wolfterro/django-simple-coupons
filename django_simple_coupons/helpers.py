@@ -1,3 +1,4 @@
+import sys
 import string
 import random
 
@@ -10,7 +11,11 @@ def get_coupon_code_length(length=12):
 
 
 def get_user_model():
-    return settings.DSC_USER_MODEL if hasattr(settings, 'DSC_USER_MODEL') else User
+    user_model = User
+    if hasattr(settings, 'DSC_USER_MODEL'):
+        user_model = getattr(sys.modules[__name__], settings.DSC_USER_MODEL)
+
+    return user_model
 
 
 def get_random_code(length=12):
