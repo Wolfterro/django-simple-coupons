@@ -1,9 +1,9 @@
 from django.db import models
 from django.utils import timezone
-from django.conf import settings
-from django.contrib.auth.models import User
 
-from django_simple_coupons.helpers import get_random_code
+from django_simple_coupons.helpers import (get_random_code,
+                                           get_coupon_code_length,
+                                           get_user_model)
 
 
 # Create your models here.
@@ -22,7 +22,7 @@ class Ruleset(models.Model):
 
 
 class AllowedUsersRule(models.Model):
-    user_model = settings.DSC_USERS_MODEL if hasattr(settings, 'DSC_USER_MODEL') else User
+    user_model = get_user_model()
 
     users = models.ManyToManyField(user_model, verbose_name="Users", blank=True)
     all_users = models.BooleanField(default=False, verbose_name="All users?")
@@ -61,7 +61,7 @@ class ValidityRule(models.Model):
 
 
 class CouponUser(models.Model):
-    user_model = settings.DSC_USERS_MODEL if hasattr(settings, 'DSC_USER_MODEL') else User
+    user_model = get_user_model()
 
     user = models.ForeignKey(user_model, on_delete=models.CASCADE, verbose_name="User")
     coupon = models.ForeignKey('Coupon', on_delete=models.CASCADE, verbose_name="Coupon")
@@ -91,7 +91,7 @@ class Discount(models.Model):
 
 
 class Coupon(models.Model):
-    code_length = settings.DSC_COUPON_CODE_LENGTH if hasattr(settings, 'DSC_COUPON_CODE_LENGTH') else 12
+    code_length = get_coupon_code_length()
 
     code = models.CharField(max_length=code_length, default=get_random_code, verbose_name="Coupon Code", unique=True)
     discount = models.ForeignKey('Discount', on_delete=models.CASCADE)
