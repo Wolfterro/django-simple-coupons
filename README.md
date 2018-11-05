@@ -28,9 +28,10 @@ DSC_COUPON_CODE_LENGTH = 16
 DSC_USER_MODEL = 'custom_auth.models.User'  # app.module.class format (example)
 ```
 
-4 - Run the ```migrate``` command:
+4 - Run the migrations:
 
 ```bash
+$ python manage.py makemigrations
 $ python manage.py migrate
 ```
 
