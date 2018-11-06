@@ -2,23 +2,23 @@
 
 ### Coupon
 
-##### [https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Coupon.md](https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Coupon.md)
+##### [https://github.com/Wolfterro/django-simple-coupons/blob/master/docs/models/Coupon.md](https://github.com/Wolfterro/django-simple-coupons/blob/master/docs/models/Coupon.md)
 
 ### Discount
 
-##### [https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Discount.md](https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Discount.md)
+##### [https://github.com/Wolfterro/django-simple-coupons/blob/master/docs/models/Discount.md](https://github.com/Wolfterro/django-simple-coupons/blob/master/docs/models/Discount.md)
 
 ### Ruleset
 
-##### [https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Ruleset.md](https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Ruleset.md)
+##### [https://github.com/Wolfterro/django-simple-coupons/blob/master/docs/models/Ruleset.md](https://github.com/Wolfterro/django-simple-coupons/blob/master/docs/models/Ruleset.md)
 
 ### Coupon User
 
-##### [https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Coupon_User.md](https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Coupon_User.md)
+##### [https://github.com/Wolfterro/django-simple-coupons/blob/master/docs/models/Coupon_User.md](https://github.com/Wolfterro/django-simple-coupons/blob/master/docs/models/Coupon_User.md)
 
 ### Validations
 
-##### [https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/validation/Validations.md](https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/validation/Validations.md)
+##### [https://github.com/Wolfterro/django-simple-coupons/blob/master/docs/validation/Validations.md](https://github.com/Wolfterro/django-simple-coupons/blob/master/docs/validation/Validations.md)
 
 ### Usage Example
 

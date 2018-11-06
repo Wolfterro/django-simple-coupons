@@ -10,7 +10,7 @@ Each ruleset has three basic rules that you need to supply: ***Allowed user rule
 
 For the ***Ruleset*** documentation, see:
 
-##### [https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Ruleset.md](https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Ruleset.md)
+##### [https://github.com/Wolfterro/django-simple-coupons/blob/master/docs/models/Ruleset.md](https://github.com/Wolfterro/django-simple-coupons/blob/master/docs/models/Ruleset.md)
 
 ## Methods (Instance)
 
@@ -18,7 +18,7 @@ For the ***Ruleset*** documentation, see:
 
 Uses the coupon ***WITHOUT ANY VALIDATION!*** To validate first, check the ***Validations*** doc:
 
-##### [https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/validation/Validations.md](https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/validation/Validations.md)
+##### [https://github.com/Wolfterro/django-simple-coupons/blob/master/docs/validation/Validations.md](https://github.com/Wolfterro/django-simple-coupons/blob/master/docs/validation/Validations.md)
 
 ##### Example:
 
@@ -45,7 +45,7 @@ Returns a dict with two keys, with the discount ***value*** and if it's ***perce
 
 For the ***Discount*** documentation, see:
 
-##### [https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Discount.md](https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Discount.md)
+##### [https://github.com/Wolfterro/django-simple-coupons/blob/master/docs/models/Discount.md](https://github.com/Wolfterro/django-simple-coupons/blob/master/docs/models/Discount.md)
 
 ##### Example:
 
