@@ -1,0 +1,15 @@
+django-simple-coupons
+=====================
+
+CHANGELOG:
+----------
+
+v0.3:
+    - Updating documentation
+    - Adding coupon.get_discount() method
+
+v0.2:
+    - Hotfix: Adding migrations folder in project
+
+v0.1:
+    - Initial Release
