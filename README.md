@@ -2,6 +2,7 @@
 ##  A Django app that makes the use of coupons a simple task!
 
 ![PyPi v0.2](https://img.shields.io/badge/PyPi-v0.2-blue.svg)
+![MIT License](https://img.shields.io/badge/License-MIT-lightgray.svg)
 
 django-simple-coupons is a simple Django app to create and use promotional coupons in your website.
 
@@ -77,7 +78,6 @@ Defines the expiration date for the coupon and if it's active or not.
 Every time a user uses a coupon, he will be added to a list called ```Coupon Users``` in admin.
 
 ![coupon-user](https://github.com/Wolfterro/django-simple-coupons/raw/master/docs/images/coupon-user.png)
-
 
 ### Usage Example:
 
