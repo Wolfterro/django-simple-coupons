@@ -45,7 +45,7 @@ Each coupon has a ***code***, ***discount*** and set of rules (known as ***rules
 
 Every time you click ```Add Coupon```, a new coupon code will be generated randomly for you. Don't worry, you can set your own personal code if you wish.
 
-![create-coupon](docs/images/coupon-create.png)
+![create-coupon](https://github.com/Wolfterro/django-simple-coupons/raw/master/docs/images/coupon-create.png)
 
 Each ruleset has three basic rules that you need to supply: ***Allowed user rule***, ***Max uses rule*** and ***Validity rule***.
 
@@ -58,25 +58,25 @@ For now, django-simple-coupons use three basic rules:
 
 Defines which users are allowed to use the coupon.
 
-![allowed-user-rule](docs/images/allowed-users-rule.png)
+![allowed-user-rule](https://github.com/Wolfterro/django-simple-coupons/raw/master/docs/images/allowed-users-rule.png)
 
 ##### Max uses rule:
 
 Defines how many uses the coupon should have in general and for each user.
 
-![max-uses-rule](docs/images/max-uses-rule.png)
+![max-uses-rule](https://github.com/Wolfterro/django-simple-coupons/raw/master/docs/images/max-uses-rule.png)
 
 ##### Validity rule:
 
 Defines the expiration date for the coupon and if it's active or not.
 
-![validity-rule](docs/images/validity-rule.png)
+![validity-rule](https://github.com/Wolfterro/django-simple-coupons/raw/master/docs/images/validity-rule.png)
 
 ### Coupon User:
 
 Every time a user uses a coupon, he will be added to a list called ```Coupon Users``` in admin.
 
-![coupon-user](docs/images/coupon-user.png)
+![coupon-user](https://github.com/Wolfterro/django-simple-coupons/raw/master/docs/images/coupon-user.png)
 
 
 ### Usage Example:
