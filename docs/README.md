@@ -1,43 +1,20 @@
 # Documentation
 
-### Coupons:
+### Coupon:
 
-Each coupon has a ***code***, ***discount*** and set of rules (known as ***ruleset*** in the admin).
+##### [https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Coupon.md](https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Coupon.md)
 
-Every time you click ```Add Coupon```, a new coupon code will be generated randomly for you. Don't worry, you can set your own personal code if you wish.
+### Discount:
 
-![create-coupon](https://github.com/Wolfterro/django-simple-coupons/raw/master/docs/images/coupon-create.png)
-
-Each ruleset has three basic rules that you need to supply: ***Allowed user rule***, ***Max uses rule*** and ***Validity rule***.
+##### [https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Discount.md](https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Discount.md)
 
 ### Ruleset:
 
-Every coupon needs a set of rules to make it valid and useable.
-For now, django-simple-coupons use three basic rules:
-
-##### Allowed user rule:
-
-Defines which users are allowed to use the coupon.
-
-![allowed-user-rule](https://github.com/Wolfterro/django-simple-coupons/raw/master/docs/images/allowed-users-rule.png)
-
-##### Max uses rule:
-
-Defines how many uses the coupon should have in general and for each user.
-
-![max-uses-rule](https://github.com/Wolfterro/django-simple-coupons/raw/master/docs/images/max-uses-rule.png)
-
-##### Validity rule:
-
-Defines the expiration date for the coupon and if it's active or not.
-
-![validity-rule](https://github.com/Wolfterro/django-simple-coupons/raw/master/docs/images/validity-rule.png)
+##### [https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Ruleset.md](https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Ruleset.md)
 
 ### Coupon User:
 
-Every time a user uses a coupon, he will be added to a list called ```Coupon Users``` in admin.
-
-![coupon-user](https://github.com/Wolfterro/django-simple-coupons/raw/master/docs/images/coupon-user.png)
+##### [https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Coupon_User.md](https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Coupon_User.md)
 
 ### Usage Example:
 
