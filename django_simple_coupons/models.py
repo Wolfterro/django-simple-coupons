@@ -111,6 +111,12 @@ class Coupon(models.Model):
         self.times_used += 1
         self.save()
 
+    def get_discount(self):
+        return {
+            "value": self.discount.value,
+            "is_percentage": self.discount.is_percentage
+        }
+
     def save(self, *args, **kwargs):
         if not self.id:
             self.created = timezone.now()
