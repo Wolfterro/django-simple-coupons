@@ -1,6 +1,8 @@
 # django-simple-coupons
 ##  A Django app that makes the use of coupons a simple task!
 
+![PyPi v0.2](https://img.shields.io/badge/PyPi-v0.2-blue.svg)
+
 django-simple-coupons is a simple Django app to create and use promotional coupons in your website.
 
 Creating the coupons is a simple task, but first, follow the instructions to install the app in your project:
