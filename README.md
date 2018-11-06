@@ -49,4 +49,4 @@ And that's it! django-simple-coupons should appear in your admin as ```Simple Co
 
 ### Documentation
 
-##### [https://github.com/Wolfterro/blob/develop/docs/README.md](https://github.com/Wolfterro/blob/develop/docs/README.md)
+##### [https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/README.md](https://github.com/Wolfterro/blob/develop/docs/README.md)
