@@ -1,22 +1,26 @@
 # Documentation
 
-### Coupon:
+### Coupon
 
 ##### [https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Coupon.md](https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Coupon.md)
 
-### Discount:
+### Discount
 
 ##### [https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Discount.md](https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Discount.md)
 
-### Ruleset:
+### Ruleset
 
 ##### [https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Ruleset.md](https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Ruleset.md)
 
-### Coupon User:
+### Coupon User
 
 ##### [https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Coupon_User.md](https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/models/Coupon_User.md)
 
-### Usage Example:
+### Validations
+
+##### [https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/validation/Validations.md](https://github.com/Wolfterro/django-simple-coupons/blob/develop/docs/validation/Validations.md)
+
+### Usage Example
 
 ```python
 # views.py - Example only
