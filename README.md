@@ -41,6 +41,10 @@ $ python manage.py migrate
 
 And that's it! django-simple-coupons should appear in your admin as ```Simple Coupons```.
 
+### Changelog
+
+***[https://github.com/Wolfterro/django-simple-coupons/blob/master/CHANGELOG.txt](https://github.com/Wolfterro/django-simple-coupons/blob/master/CHANGELOG.txt)***
+
 ### Documentation
 
 ***[https://github.com/Wolfterro/django-simple-coupons/blob/master/docs/README.md](https://github.com/Wolfterro/django-simple-coupons/blob/master/docs/README.md)***
