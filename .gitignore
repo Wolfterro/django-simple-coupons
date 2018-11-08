@@ -117,6 +117,9 @@ dmypy.json
 .idea/
 
 # This project
+# ------------
 DjangoSimpleCoupons/
+custom_auth/
+
 manage.py
 requirements.txt

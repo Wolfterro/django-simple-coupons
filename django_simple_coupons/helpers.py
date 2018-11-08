@@ -3,7 +3,7 @@ import string
 import random
 
 from django.conf import settings
-from django.contrib.auth.models import User
+from django.contrib.auth import get_user_model as django_get_user_model
 
 
 def get_coupon_code_length(length=12):
@@ -11,11 +11,7 @@ def get_coupon_code_length(length=12):
 
 
 def get_user_model():
-    user_model = User
-    if hasattr(settings, 'DSC_USER_MODEL'):
-        user_model = getattr(sys.modules[__name__], settings.DSC_USER_MODEL)
-
-    return user_model
+    return django_get_user_model()
 
 
 def get_random_code(length=12):
