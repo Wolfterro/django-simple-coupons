@@ -32,13 +32,7 @@ INSTALLED_APPS = [
 DSC_COUPON_CODE_LENGTH = 16
 ```
 
-3 - (Optional) If you make use of another User model in your project, add ```DSC_USER_MODEL``` variable in settings.py:
-
-```python
-DSC_USER_MODEL = 'custom_auth.models.User'  # app.module.class format (example)
-```
-
-4 - Run the migrations:
+3 - Run the migrations:
 
 ```bash
 $ python manage.py makemigrations
