@@ -4,6 +4,9 @@ django-simple-coupons
 CHANGELOG:
 ----------
 
+v0.5:
+    - Creating useful actions for the Coupon and CouponUser admins
+
 v0.4:
     - DSC_USER_MODEL is now deprecated; User model will be defined from AUTH_USER_MODEL in settings.py
 
