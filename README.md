@@ -1,7 +1,7 @@
 # django-simple-coupons
 ##  A Django app that makes the use of coupons a simple task!
 
-![PyPI v0.4](https://img.shields.io/badge/PyPI-v0.4-blue.svg)
+![PyPI v0.5](https://img.shields.io/badge/PyPI-v0.5-blue.svg)
 ![MIT License](https://img.shields.io/badge/License-MIT-lightgray.svg)
 ![Docs](https://img.shields.io/badge/docs-meh-orange.svg)
 
