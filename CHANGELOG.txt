@@ -6,6 +6,7 @@ CHANGELOG:
 
 v0.5:
     - Creating useful actions for the Coupon and CouponUser admins
+    - Adding coupon.get_discounted_value(initial_value=<int/float>) method
 
 v0.4:
     - DSC_USER_MODEL is now deprecated; User model will be defined from AUTH_USER_MODEL in settings.py

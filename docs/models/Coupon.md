@@ -57,3 +57,21 @@ coupon = Coupon.objects.get(code=coupon_code)
 
 discount = coupon.get_discount()  # Example: {'value': 50, 'is_percentage': True} 
 ```
+
+<hr>
+
+- ##### coupon.get_discounted_value(initial_value=<int/float>) -> Float
+
+Returns a float with the new, discounted value.
+
+##### Example:
+
+```python
+from django_simple_coupons.models import Coupon
+
+coupon_code = "COUPONTEST01"
+coupon = Coupon.objects.get(code=coupon_code)
+
+''' Example: Returns 50.0 if discount is 50% or 80.0 if discount is $20 '''
+discount_value = coupon.get_discounted_value(initial_value=100.0)
+```
